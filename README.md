@@ -1,6 +1,6 @@
-# 🚀 Data Pipeline for Multi-Vendor Sales Aggregation
+#  Data Pipeline for Multi-Vendor Sales Aggregation
 
-## 📌 Overview
+##  Overview
 
 This project builds a robust data pipeline to ingest, clean, standardize, and aggregate sales data from multiple B2B vendors:
 
@@ -13,13 +13,13 @@ The pipeline handles schema inconsistencies, missing values, and different reven
 
 ---
 
-## ⚙️ Pipeline Flow
+##  Pipeline Flow
 
 Ingestion → Cleaning → Standardization → Aggregation → Output
 
 ---
 
-## 🧾 Data Challenges Solved
+##  Data Challenges Solved
 
 * Different column names across vendors
 * Multiple date formats
@@ -28,7 +28,7 @@ Ingestion → Cleaning → Standardization → Aggregation → Output
 
 ---
 
-## 🔄 Revenue Logic per Source
+##  Revenue Logic per Source
 
 | Source  | Revenue Logic               |
 | ------- | --------------------------- |
@@ -39,7 +39,7 @@ Ingestion → Cleaning → Standardization → Aggregation → Output
 
 ---
 
-## 📤 Output Schema
+##  Output Schema
 
 | Column        | Description        |
 | ------------- | ------------------ |
@@ -51,14 +51,14 @@ Ingestion → Cleaning → Standardization → Aggregation → Output
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 * Python
 * Pandas
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ```bash
 python pipeline.py
@@ -66,7 +66,7 @@ python pipeline.py
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 DataPipeline/
@@ -79,7 +79,7 @@ DataPipeline/
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 * Airflow scheduling
 * Database integration (PostgreSQL/Snowflake)
@@ -88,6 +88,6 @@ DataPipeline/
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 Saurabh Khatal
